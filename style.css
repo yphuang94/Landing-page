@@ -8,9 +8,34 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
-    padding-bottom: 90px;
-    padding-left: 90px;
-    padding-right: 90px;
+    padding-bottom: 150px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.header {
+    margin-bottom: 50px;
+    display: flex;
+}
+
+.logo-header {
+    margin-right: auto;
+    font-size: 24px;
+    color: #F9FAF8;
+    list-style-type: none;
+    font-weight: 700;
+}
+
+.links-header {
+    display: flex;
+    align-items: center;
+}
+
+.links {
+    list-style-type: none;
+    color: #E5E7EB;
+    margin: 10px;
+    font-size: 22px;
 }
 
 .one-body {
@@ -18,29 +43,6 @@ body {
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 40px;
-}
-
-.header {
-    margin-bottom: 50px;
-}
-
-.links {
-    display: flex;
-    list-style-type: none;
-    justify-content: space-between;
-    margin: 0px;
-    padding: 0px;
-    color: #E5E7EB;
-}
-
-.logo {
-    margin-right: auto;
-    font-size: 24px;
-    color: #F9FAF8;
-}
-
-.list-one {
-    margin: 10px;
 }
 
 .one-awesome {
@@ -76,7 +78,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: gray;
+    background-color: rgb(113, 118, 130);
     width: 50%;
 }
 
@@ -90,28 +92,39 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 120px;
+    padding-top: 50px;
 }
 
 .image-container {
     display: flex;
+    width: 70%;
+    padding: 50px;
 }
 
-.first-image,.second-image,.third-image,.fourth-image {
+.two-image {
     list-style-type: none;
+    text-align: center;
 }
 
 .image-box {
-    height: 100px;
+    height: 160px;
     max-width: 100%;
-    border: 3px solid lightblue;
-    border-radius: 8px;
+    border: 4px solid rgb(100, 153, 253);
+    border-radius: 14px;
 }
 
 .sub-header {
     font-size: 36px;
     color: #1F2937;
     font-weight: 700;
+}
+
+.desc {
+    font-size: 20px;
+    color: rgba(71, 71, 71, 0.847);
 }
 
 /*Section-three*/
@@ -121,18 +134,24 @@ body {
     flex-direction: column;
     align-items: center;
     background-color: #E5E7EB;
+    padding: 120px;
 }
 
 .quote {
-    font-size: 30px; 
+    font-size: 38px; 
     color: #1F2937;
-    max-width: 80%;
+    width: 70%;
 }
 
 .author {
     margin-left: auto;
-    margin-right: 100px;
+    margin-right: 200px;
     color: #1F2937;
     font-size: 22px; 
     font-weight: 700;
+    
 }
+
+/*Section-four*/
+
+
